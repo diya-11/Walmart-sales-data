@@ -1,0 +1,23 @@
+walmart-project
+
+=> download json file from Kaggle and move it to created .Kaggle folder in home directory
+=> setup environment in vs code 
+=> using python -m venv my_env1
+=> create ibynb file
+in terminal
+=> Set-ExecutionPolicy Unrestricted -Scope Process
+=> .venv\Scripts\Activate.ps1
+setting Kaggle api
+=> pip install Kaggle
+=> pip list
+download Kaggle dataset 
+=> Kaggle datasets download -d (dataset link here)
+unzip file
+=> tar -xf (relative path)
+Import pandas for dependencies
+=> pip install pandas
+install sqlalchemy, psycopg2
+Connect to PostgreSQL 
+Create database in Pgadmin=> engine_psql = create_engine("postgresql+psycopg2://postgres:xxxx@localhost:5432/walmart_db")
+df.to_sql(name='walmart', con=engine_psql, if_exists='append', index=False)
+
