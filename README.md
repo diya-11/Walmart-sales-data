@@ -69,7 +69,7 @@ Python
 pandas, numpy, sqlalchemy, psycopg2
 Kaggle API Key (for data downloading)
 
-This section will include your analysis findings:
+## This section will include your analysis findings:
 
 - Sales Insights: Key categories, branches with highest sales, and preferred payment methods.
 - Profitability: Insights into the most profitable product categories and locations.
